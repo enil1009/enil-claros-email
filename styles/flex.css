@@ -1,0 +1,34 @@
+.box {
+    color: red;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 1);
+    padding: 10px;
+}
+
+
+.box1 {background: green;}
+.box2 {background: yellow;}
+.box3 {background: white;}
+.box4 {background: aqua;}
+.box5 {background: purple;}
+.box6 {background: silver;}
+.box7 {background: crimson;}
+.box8 {background: blue;}
+.box9 {background: coral;}
+.box10 {background: gold;}
+
+
+/* We write flex box here. */
+.container {
+    display: flex;
+    
+}
+
+.box {
+    flex: 1;
+}
+
+.box3 {
+    order: 5;
+}
